@@ -5,19 +5,19 @@ class Minedminds_array < Minitest::Test
 	def test_1_equals_1
 		assert_equal(1,1)
 	end
-
-	def test_array_returns_100_elements
-		assert_equal(100,array.count)
-	end
+	
 	def test_1st_number
 		assert_equal(1,array[0])
 	end
+	
 	def test_3rd_number
 		assert_equal("mined",array[2])
 	end
+
+	def test_6th_number
+		assert_equal("mined",array[5])
+	end
 end
-
-
 
 
 
