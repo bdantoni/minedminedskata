@@ -29,6 +29,21 @@ class Minedminds_array < Minitest::Test
 		assert_equal("mined minds",array[14])
 	end
 
+	def test_number_33
+		p array
+		assert_equal("mined",array[32])
+	end
+
+	def test_number_98
+		p array
+		assert_equal(98,array[97])
+	end
+
+	def test_number_100_fail
+		p array
+		assert_equal(100,array[99])
+	end
+
 end
 
 
